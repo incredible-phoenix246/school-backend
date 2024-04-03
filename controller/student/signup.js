@@ -23,6 +23,8 @@ const handleStudentSignup = async (req, res) => {
   const { firstName, lastName, email, password, phoneNumber, program } =
     req.body;
 
+    // console.log(firstName)
+
   try {
     // Checking if Student is already registered or not with the same email or phone
     const isStudentAlreadyRegistered = await Student.findOne({
