@@ -8,10 +8,9 @@ const {
 } = require("../../controller/common/downloadNotice");
 
 // Set a welcome message for the '/' endpoint for all the methods
-router.all("/", welcomeMessage);
-// router.post("/", welcomeMessage);
-// router.put("/", welcomeMessage);
-// router.delete("/", welcomeMessage);
+//  this only works on get req
+router.get("/", welcomeMessage);
+
 
 // ROUTER: POST /resend-otp
 router.post(
