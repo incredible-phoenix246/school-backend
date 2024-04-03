@@ -18,7 +18,8 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.2",
     "nodemailer": "^6.9.3",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "vercel": "^33.6.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
